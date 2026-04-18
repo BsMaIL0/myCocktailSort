@@ -1,0 +1,21 @@
+# Visual Studio 2026
+.vs/
+out/
+x64/
+Debug/
+Release/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Compiled
+*.exe
+*.obj
+*.pdb
+*.ilk
+
+# My compiled program
+PointsInCircle.exe
