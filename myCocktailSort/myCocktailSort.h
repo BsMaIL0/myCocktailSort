@@ -4,7 +4,7 @@
 #include <utility>
 
 template <typename T, typename Compare = std::less<T>>
-void myCocktailSort(T* array, size_t size, Compare comp = Compare()) noexcept {
+void myCocktailSort(T* array, size_t size, Compare comp = Compare()) {
   if (size <= 1) {
     return;
   }
